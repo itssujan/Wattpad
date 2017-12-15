@@ -21,7 +21,8 @@ public class Flagger {
 			    }
 			}
 		} catch (Exception e) {
-			System.out.println("Error reading files");
+			e.printStackTrace();
+			System.out.println("Error reading files ");
 		}
 	}
 
@@ -51,7 +52,7 @@ public class Flagger {
 	}
 	
 	public static void main(String[] args) {
-		calculateOffensiveScore("/Users/sujanabraham/Downloads/Wattpad Platform Coding Challenge");
+		calculateOffensiveScore("input/");
 	}
 
 }
