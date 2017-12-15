@@ -15,7 +15,6 @@ The input files each one containing some possibly offensive text that the progra
 
 The program will write out one output file containing the scores of each input file in order, in the format:
 
-<input-filename-1>:<score-1>
-
-<input-filename-2>:<score-2>
+input01.txt:3
+input02.txt:0
 
